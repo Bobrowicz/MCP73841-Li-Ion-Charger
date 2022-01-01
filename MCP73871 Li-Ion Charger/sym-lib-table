@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name MCP73871_Li-Ion_Charger)(type Legacy)(uri ${KIPRJMOD}/MCP73871_Li-Ion_Charger.lib)(options "")(descr ""))
+)

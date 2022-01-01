@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX1898
+D USB Powered Li+ Charger, 4.1V/4.2V battery, 5V input, 0.1/0.5A charging current
+K USB Battery Charger
+F https://datasheets.maximintegrated.com/en/ds/MAX1811.pdf
+$ENDCMP
+#
+$CMP MCP73841
+D Single cell, Li-Ion/Li-Po charge management controller
+K battery charger lithium
+F https://ww1.microchip.com/downloads/en/DeviceDoc/21823D.pdf
+$ENDCMP
+#
+#End Doc Library

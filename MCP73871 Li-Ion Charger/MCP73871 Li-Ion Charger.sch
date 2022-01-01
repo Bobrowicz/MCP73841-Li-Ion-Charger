@@ -1,0 +1,434 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:D_Schottky D1
+U 1 1 618F9DDE
+P 2050 2500
+F 0 "D1" V 2096 2420 50  0000 R CNN
+F 1 "D_Schottky" V 2005 2420 50  0000 R CNN
+F 2 "Diodes_SMD:D_SMA_Handsoldering" H 2050 2500 50  0001 C CNN
+F 3 "~" H 2050 2500 50  0001 C CNN
+	1    2050 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2200 2500 2300 2500
+Connection ~ 2300 2500
+Wire Wire Line
+	2300 2500 2550 2500
+$Comp
+L power:GND #PWR02
+U 1 1 6190A832
+P 2300 3250
+F 0 "#PWR02" H 2300 3000 50  0001 C CNN
+F 1 "GND" H 2305 3077 50  0000 C CNN
+F 2 "" H 2300 3250 50  0001 C CNN
+F 3 "" H 2300 3250 50  0001 C CNN
+	1    2300 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3100 3800 3100
+Wire Wire Line
+	3800 3100 3800 2500
+Wire Wire Line
+	3800 2500 3700 2500
+Wire Wire Line
+	3300 2500 3300 3300
+Connection ~ 3300 2500
+Wire Wire Line
+	3300 2500 3400 2500
+Wire Wire Line
+	2800 2800 2800 2500
+Connection ~ 2800 2500
+Wire Wire Line
+	2800 2500 3050 2500
+$Comp
+L power:GND #PWR04
+U 1 1 61917271
+P 4500 4300
+F 0 "#PWR04" H 4500 4050 50  0001 C CNN
+F 1 "GND" H 4505 4127 50  0000 C CNN
+F 2 "" H 4500 4300 50  0001 C CNN
+F 3 "" H 4500 4300 50  0001 C CNN
+	1    4500 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4200 4500 4300
+$Comp
+L Device:R_US RT1
+U 1 1 6191F3E4
+P 5400 4250
+F 0 "RT1" H 5468 4296 50  0000 L CNN
+F 1 "13k7" H 5468 4205 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5440 4240 50  0001 C CNN
+F 3 "~" H 5400 4250 50  0001 C CNN
+	1    5400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US RT2
+U 1 1 6191FBE3
+P 3800 4850
+F 0 "RT2" H 3868 4896 50  0000 L CNN
+F 1 "NF" H 3868 4805 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3840 4840 50  0001 C CNN
+F 3 "~" H 3800 4850 50  0001 C CNN
+	1    3800 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 61921EAB
+P 3800 5100
+F 0 "#PWR03" H 3800 4850 50  0001 C CNN
+F 1 "GND" H 3805 4927 50  0000 C CNN
+F 2 "" H 3800 5100 50  0001 C CNN
+F 3 "" H 3800 5100 50  0001 C CNN
+	1    3800 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US RSNS1
+U 1 1 6193587C
+P 3550 2500
+F 0 "RSNS1" V 3345 2500 50  0000 C CNN
+F 1 "0R22" V 3436 2500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3590 2490 50  0001 C CNN
+F 3 "~" H 3550 2500 50  0001 C CNN
+	1    3550 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C1
+U 1 1 6193AAA1
+P 2300 2900
+F 0 "C1" H 2415 2946 50  0000 L CNN
+F 1 "10u" H 2415 2855 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 2300 2900 50  0001 C CNN
+F 3 "~" H 2300 2900 50  0001 C CNN
+	1    2300 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2500 2300 2750
+Wire Wire Line
+	2300 3050 2300 3250
+$Comp
+L Device:R_US R1
+U 1 1 6193D580
+P 2800 2950
+F 0 "R1" H 2732 2904 50  0000 R CNN
+F 1 "10k" H 2732 2995 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2840 2940 50  0001 C CNN
+F 3 "~" H 2800 2950 50  0001 C CNN
+	1    2800 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 61941D15
+P 3450 3500
+F 0 "D2" H 3450 3600 50  0000 C CNN
+F 1 "LED" H 3450 3600 50  0001 C CNN
+F 2 "Diodes_SMD:D_0805" H 3450 3500 50  0001 C CNN
+F 3 "~" H 3450 3500 50  0001 C CNN
+	1    3450 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:IRF7404 Q1
+U 1 1 61942B56
+P 5900 2600
+F 0 "Q1" V 6242 2600 50  0000 C CNN
+F 1 "IRF7404" V 6151 2600 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6100 2525 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" V 5900 2600 50  0001 L CNN
+	1    5900 2600
+	0    1    -1   0   
+$EndComp
+Connection ~ 3800 2500
+Wire Wire Line
+	5900 3100 5900 2800
+Wire Wire Line
+	5100 3100 5900 3100
+Wire Wire Line
+	6100 2500 6200 2500
+Wire Wire Line
+	6600 3000 6600 2500
+Connection ~ 6600 2500
+Wire Wire Line
+	6600 2500 6900 2500
+$Comp
+L power:GND #PWR07
+U 1 1 6194C649
+P 6400 3850
+F 0 "#PWR07" H 6400 3600 50  0001 C CNN
+F 1 "GND" H 6405 3677 50  0000 C CNN
+F 2 "" H 6400 3850 50  0001 C CNN
+F 3 "" H 6400 3850 50  0001 C CNN
+	1    6400 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3300 6200 3300
+Wire Wire Line
+	6200 3300 6200 2500
+Connection ~ 6200 2500
+Wire Wire Line
+	6200 2500 6600 2500
+Wire Wire Line
+	6600 3300 6600 3700
+Connection ~ 6600 3700
+$Comp
+L Device:CP1 C3
+U 1 1 6193E308
+P 6600 3150
+F 0 "C3" H 6715 3196 50  0000 L CNN
+F 1 "4u7" H 6715 3105 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 6600 3150 50  0001 C CNN
+F 3 "~" H 6600 3150 50  0001 C CNN
+	1    6600 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 61A4354D
+P 2550 2400
+F 0 "#FLG0102" H 2550 2475 50  0001 C CNN
+F 1 "PWR_FLAG" H 2550 2573 50  0000 C CNN
+F 2 "" H 2550 2400 50  0001 C CNN
+F 3 "~" H 2550 2400 50  0001 C CNN
+	1    2550 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2500 1900 2500
+Wire Wire Line
+	3300 3300 3900 3300
+Wire Wire Line
+	2550 2400 2550 2500
+Connection ~ 2550 2500
+Wire Wire Line
+	2550 2500 2800 2500
+Wire Wire Line
+	1800 2500 1800 2000
+Wire Wire Line
+	6900 2500 6900 2200
+Text Label 5150 3300 0    50   ~ 0
+VBAT
+Text Label 5150 3100 0    50   ~ 0
+DRV
+Text Label 3800 3050 1    50   ~ 0
+SNS
+Connection ~ 7000 3700
+Wire Wire Line
+	6600 3700 7000 3700
+Wire Wire Line
+	7000 4400 7000 4600
+Wire Wire Line
+	7000 3700 7000 4100
+$Comp
+L Device:Thermistor_NTC_US TH1
+U 1 1 619122AB
+P 7000 4250
+F 0 "TH1" H 7097 4296 50  0000 L CNN
+F 1 "10k NTC" H 7097 4205 50  0000 L CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 7000 4300 50  0001 C CNN
+F 3 "~" H 7000 4300 50  0001 C CNN
+	1    7000 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3500 7000 3700
+Connection ~ 7000 3500
+Wire Wire Line
+	7000 2300 7000 3500
+Wire Wire Line
+	7150 3500 7000 3500
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 61A3CF89
+P 7150 3500
+F 0 "#FLG0101" H 7150 3575 50  0001 C CNN
+F 1 "PWR_FLAG" H 7150 3673 50  0000 C CNN
+F 2 "" H 7150 3500 50  0001 C CNN
+F 3 "~" H 7150 3500 50  0001 C CNN
+	1    7150 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 61A32305
+P 7150 2100
+F 0 "#PWR0101" H 7150 1850 50  0001 C CNN
+F 1 "GND" H 7155 1927 50  0000 C CNN
+F 2 "" H 7150 2100 50  0001 C CNN
+F 3 "" H 7150 2100 50  0001 C CNN
+	1    7150 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 2300 7200 2300
+Wire Wire Line
+	6900 2200 7200 2200
+Wire Wire Line
+	7200 2100 7150 2100
+Wire Wire Line
+	1800 2000 7200 2000
+$Comp
+L Device:C C2
+U 1 1 6193EE61
+P 5550 3700
+F 0 "C2" H 5665 3746 50  0000 L CNN
+F 1 "0u33" H 5665 3655 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5588 3550 50  0001 C CNN
+F 3 "~" H 5550 3700 50  0001 C CNN
+	1    5550 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 3700 6400 3700
+Wire Wire Line
+	6200 3400 6200 3300
+Connection ~ 6200 3300
+$Comp
+L Device:R_Small THJP1
+U 1 1 61A803DD
+P 5600 2700
+F 0 "THJP1" H 5541 2700 50  0000 R CNN
+F 1 "TH JMP" V 5495 2700 50  0001 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 5600 2700 50  0001 C CNN
+F 3 "~" H 5600 2700 50  0001 C CNN
+	1    5600 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small THJP2
+U 1 1 61A80F5E
+P 6200 3500
+F 0 "THJP2" H 6141 3500 50  0000 R CNN
+F 1 "TH JMP" H 6141 3545 50  0001 R CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 6200 3500 50  0001 C CNN
+F 3 "~" H 6200 3500 50  0001 C CNN
+	1    6200 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x04 J1
+U 1 1 61A2F6F9
+P 7400 2200
+F 0 "J1" H 7480 2146 50  0000 L CNN
+F 1 "Screw_Terminal_01x04" H 7480 2101 50  0001 L CNN
+F 2 "MCP73871_Li-Ion_Charger:CUI_TB007-508-04BE" H 7400 2200 50  0001 C CNN
+F 3 "~" H 7400 2200 50  0001 C CNN
+	1    7400 2200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3800 2500 5600 2500
+Wire Wire Line
+	6200 3600 6200 3700
+Text Label 5150 3900 0    50   ~ 0
+THREF
+Wire Wire Line
+	3900 3700 2800 3700
+Wire Wire Line
+	2800 3100 2800 3700
+Wire Wire Line
+	3900 3500 3600 3500
+Wire Wire Line
+	3300 3500 3050 3500
+Wire Wire Line
+	3050 3500 3050 2500
+Connection ~ 3050 2500
+Wire Wire Line
+	3050 2500 3300 2500
+Wire Wire Line
+	3800 5000 3800 5100
+Connection ~ 6200 3700
+Wire Wire Line
+	5400 3700 5100 3700
+Wire Wire Line
+	5700 3700 6200 3700
+Wire Wire Line
+	6400 3850 6400 3700
+Connection ~ 6400 3700
+Wire Wire Line
+	6400 3700 6600 3700
+Wire Wire Line
+	5100 3900 5400 3900
+Wire Wire Line
+	5400 3900 5400 4100
+Wire Wire Line
+	5400 4400 5400 4600
+Connection ~ 5400 4600
+Wire Wire Line
+	5400 4600 7000 4600
+Text Label 3700 3700 0    50   ~ 0
+EN
+Text Label 3700 3500 0    50   ~ 0
+STAT
+Text Label 3700 3300 0    50   ~ 0
+VDD
+Wire Wire Line
+	3800 4600 5400 4600
+Wire Wire Line
+	3800 4700 3800 4600
+Connection ~ 3800 4600
+Wire Wire Line
+	3800 3900 3900 3900
+Wire Wire Line
+	3800 3900 3800 4600
+Text Label 3800 4150 1    50   ~ 0
+THSNS
+$Comp
+L power:GND #PWR0102
+U 1 1 61B20AB3
+P 5500 2900
+F 0 "#PWR0102" H 5500 2650 50  0001 C CNN
+F 1 "GND" H 5505 2727 50  0000 C CNN
+F 2 "" H 5500 2900 50  0001 C CNN
+F 3 "" H 5500 2900 50  0001 C CNN
+	1    5500 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 2600 5600 2500
+Connection ~ 5600 2500
+Wire Wire Line
+	5600 2500 5700 2500
+Wire Wire Line
+	5600 2800 5600 2900
+Wire Wire Line
+	5600 2900 5500 2900
+Text Label 6900 2000 0    50   ~ 0
+Vin+
+Text Notes 3400 2650 0    50   ~ 0
+500 mA
+$Comp
+L MCP73871_Li-Ion_Charger:MCP73841 U1
+U 1 1 61D08FAE
+P 4500 3450
+F 0 "U1" H 4500 4167 50  0000 C CNN
+F 1 "MCP73841" H 4500 4076 50  0000 C CNN
+F 2 "Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm" H 4700 2550 50  0001 L CIN
+F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/21823D.pdf" H 4350 3750 50  0001 C CNN
+	1    4500 3450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
